@@ -1,0 +1,36 @@
+.container{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+    justify-content: start;
+    /* justify-content: start karne se saara ka saara content horizontal axis ke left mein ek dam chipak ke shuru ho jata hai */
+
+    justify-content: end;
+    /* justify-content: end karne se saara ka saara content horizontal axis ke right mein ek dam chipak ke shuru ho jata hai */
+
+    justify-content: center;
+    /* iss se saara ka saara content center mein aa jaega */
+
+    justify-content: space-between;
+    /* iss se grid-items ke beech space aa jaega */
+
+    justify-content: space-around;
+    /* iss se grid-items ke left aur right mein space aa jaega */
+
+    justify-content: space-evenly;
+    /* iss se evenly space aa jaega har jagah */
+
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
