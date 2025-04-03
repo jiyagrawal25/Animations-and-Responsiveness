@@ -1,0 +1,30 @@
+.container{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+    align-items: start;
+    /* iss se grid-items block ke start se shuru ho jaega */
+    
+    align-items: end;
+    /* iss se grid-items block ke end se shuru ho jaega */
+
+    align-items: baseline;
+    /* similar to start */
+
+    align-items: stretch;
+    /* ye pura ka pura block cover kar lega default property hai */
+
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
