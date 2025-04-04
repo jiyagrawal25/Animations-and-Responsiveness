@@ -1,0 +1,31 @@
+.container{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+#box1{
+    /* justify-self waali property child par lagayi jaati hai that is the grid-items */
+    
+    justify-self: start;
+    /* horizontal axis pe aapka jo block hai vo starting mein shift ho jaega,left side mein */
+
+    justify-self: end;
+    /* horizontal axis pe aapka jo block hai vo ending mein shift ho jaega,right side mein */
+
+    justify-self: center;
+    /* iss se jo block hai vo center mein shift ho jaega */
+}
