@@ -1,0 +1,26 @@
+.container{
+    border: 1px solid black;
+    background-color: yellow;
+    height: 700px;
+    width: 600px;
+
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+
+    grid-gap: 10px;
+
+    align-content: space-between;
+    /* iss se row ke beech gap aa jaega  */
+
+    align-content: space-evenly;
+    align-content: space-around;
+
+}
+
+.box{
+    border: 1px solid red;
+    background-color: aqua;
+}
+
+
